@@ -16,3 +16,13 @@ button.addEventListener("click", () => {
   };
   getPersonData();
 });
+
+const createPerson = (data) => {
+  let { first, last } = data.results[0].name;
+  // let name = data.results[0];
+  // let { country } = data.results[0].location;
+  let location = data.results[0].location.country;
+  let { email, phone } = data.results[0];
+  let image = data.results[0].picture.medium;
+  
+}
