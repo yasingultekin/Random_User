@@ -36,5 +36,14 @@ const createPerson = (data) => {
         <p>
           <i class="fa-solid fa-user"></i> Name :
           <span class="name"> ${first}</span>
-        </p>`;
+        </p>
+        <p>
+          <i class="fa-solid fa-user"></i> LastName :
+          <span class="last-name"> ${last} </span>
+        </p>
+        <p>
+          <i class="fa-solid fa-magnifying-glass-location"></i> Location :
+          <span class="location"> ${location}</span>
+        </p>
+        `;
 };
