@@ -45,5 +45,13 @@ const createPerson = (data) => {
           <i class="fa-solid fa-magnifying-glass-location"></i> Location :
           <span class="location"> ${location}</span>
         </p>
+        <p>
+          <i class="fa-solid fa-phone-flip"></i>Phone :
+          <span class="phone"> ${phone}</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-envelope"></i>Email :
+          <span class="email"> ${email}</span>
+        </p>
         `;
 };
