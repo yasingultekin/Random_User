@@ -25,4 +25,10 @@ const createPerson = (data) => {
   let { email, phone } = data.results[0];
   let image = data.results[0].picture.medium;
   
-}
+  console.log(first);
+  console.log(last);
+  console.log(location);
+  console.log(email);
+  console.log(phone);
+
+};
